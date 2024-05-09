@@ -14,7 +14,7 @@
 			"url": "assets/game0.json",
 			"type": "sheet",
 			"name": "game0_json",
-			"subkeys": "Icon_Timer_png,ItemIcon_Chat_png,allticket_png,buy_png,iconoutside_png,img_0_png,img_10_png,img_11_png,img_12_png,img_13_png,img_14_png,img_15_png,img_16_png,img_1_png,img_2_png,img_3_png,img_4_png,img_5_png,img_6_png,img_7_Png,img_8_png,img_9_png,myticket_png,winner_png"
+			"subkeys": "Icon_Timer_png,ItemIcon_Chat_png,allticket_png,buy_png,iconoutside_png,img_0_png,img_10_png,img_11_png,img_12_png,img_13_png,img_14_png,img_15_png,img_16_png,img_17_png,img_1_png,img_2_png,img_3_png,img_4_png,img_5_png,img_6_png,img_7_Png,img_8_png,img_9_png,myticket_png,winner_png"
 		},
 		{
 			"url": "assets/moregame.png",
