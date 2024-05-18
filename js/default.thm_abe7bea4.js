@@ -1380,11 +1380,11 @@ window.skins=window.skins||{};
 	__extends(WinnerBar, _super);
 	function WinnerBar() {
 		_super.call(this);
-		this.skinParts = ["lbl_info","img_icon0","lbl_idx0","lbl_name0","lbl_money0","img_icon1","lbl_idx1","lbl_name1","lbl_money1","img_icon2","lbl_idx2","lbl_name2","lbl_money2"];
+		this.skinParts = ["lbl_info","img_icon0","lbl_idx0","lbl_name0","lbl_money0","grp_0","img_icon1","lbl_idx1","lbl_name1","lbl_money1","grp_1","img_icon2","lbl_idx2","lbl_name2","lbl_money2","grp_2"];
 		
 		this.height = 230;
 		this.width = 550;
-		this.elementsContent = [this._Image1_i(),this.lbl_info_i(),this._Group1_i(),this._Group2_i(),this._Group3_i()];
+		this.elementsContent = [this._Image1_i(),this.lbl_info_i(),this.grp_0_i(),this.grp_1_i(),this.grp_2_i()];
 	}
 	var _proto = WinnerBar.prototype;
 
@@ -1409,8 +1409,9 @@ window.skins=window.skins||{};
 		t.y = 14;
 		return t;
 	};
-	_proto._Group1_i = function () {
+	_proto.grp_0_i = function () {
 		var t = new eui.Group();
+		this.grp_0 = t;
 		t.height = 60;
 		t.horizontalCenter = 0;
 		t.top = 40;
@@ -1421,14 +1422,14 @@ window.skins=window.skins||{};
 	_proto.img_icon0_i = function () {
 		var t = new eui.Image();
 		this.img_icon0 = t;
+		t.anchorOffsetX = 27.5;
+		t.anchorOffsetY = 27.5;
 		t.height = 55;
 		t.left = 84;
 		t.scaleX = 1;
 		t.scaleY = 1;
-		t.verticalCenter = 0;
+		t.verticalCenter = 0.5;
 		t.width = 55;
-		t.x = 84;
-		t.y = 13;
 		return t;
 	};
 	_proto._Image2_i = function () {
@@ -1504,8 +1505,9 @@ window.skins=window.skins||{};
 		t.y = 15;
 		return t;
 	};
-	_proto._Group2_i = function () {
+	_proto.grp_1_i = function () {
 		var t = new eui.Group();
+		this.grp_1 = t;
 		t.height = 60;
 		t.horizontalCenter = 0;
 		t.top = 100;
@@ -1516,14 +1518,14 @@ window.skins=window.skins||{};
 	_proto.img_icon1_i = function () {
 		var t = new eui.Image();
 		this.img_icon1 = t;
+		t.anchorOffsetX = 27.5;
+		t.anchorOffsetY = 27.5;
 		t.height = 55;
 		t.left = 84;
 		t.scaleX = 1;
 		t.scaleY = 1;
-		t.verticalCenter = 0;
+		t.verticalCenter = 0.5;
 		t.width = 55;
-		t.x = 84;
-		t.y = 13;
 		return t;
 	};
 	_proto._Image4_i = function () {
@@ -1535,8 +1537,6 @@ window.skins=window.skins||{};
 		t.source = "game0_json.iconoutside_png";
 		t.verticalCenter = 0;
 		t.width = 57;
-		t.x = 84;
-		t.y = -12;
 		return t;
 	};
 	_proto.lbl_idx1_i = function () {
@@ -1603,8 +1603,9 @@ window.skins=window.skins||{};
 		t.y = 15;
 		return t;
 	};
-	_proto._Group3_i = function () {
+	_proto.grp_2_i = function () {
 		var t = new eui.Group();
+		this.grp_2 = t;
 		t.height = 60;
 		t.horizontalCenter = 0;
 		t.top = 160;
@@ -1616,14 +1617,14 @@ window.skins=window.skins||{};
 	_proto.img_icon2_i = function () {
 		var t = new eui.Image();
 		this.img_icon2 = t;
+		t.anchorOffsetX = 27.5;
+		t.anchorOffsetY = 27.5;
 		t.height = 55;
 		t.left = 84;
 		t.scaleX = 1;
 		t.scaleY = 1;
-		t.verticalCenter = 0;
+		t.verticalCenter = 0.5;
 		t.width = 55;
-		t.x = 84;
-		t.y = 13;
 		return t;
 	};
 	_proto._Image6_i = function () {
@@ -1635,8 +1636,6 @@ window.skins=window.skins||{};
 		t.source = "game0_json.iconoutside_png";
 		t.verticalCenter = 0;
 		t.width = 57;
-		t.x = 84;
-		t.y = -57;
 		return t;
 	};
 	_proto.lbl_idx2_i = function () {

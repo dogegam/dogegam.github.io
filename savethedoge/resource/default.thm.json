@@ -1,0 +1,23 @@
+{
+	"skins": {
+		"Scene.Eat.Main": "resource/eui_skins/eat/Main.exml",
+		"Scene.Game.Main": "resource/eui_skins/game/Main.exml",
+		"Scene.Pause": "resource/eui_skins/Pause.exml",
+		"Scene.Cover.Main": "resource/eui_skins/cover/Main.exml",
+		"Scene.Cover.LvBtn": "resource/eui_skins/cover/LvBtn.exml",
+		"Scene.Common": "resource/eui_skins/Common.exml",
+		"Scene.Love.Main": "resource/eui_skins/love/Main.exml"
+	},
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/eui_skins/AdMask.exml",
+		"resource/eui_skins/Common.exml",
+		"resource/eui_skins/cover/LvBtn.exml",
+		"resource/eui_skins/cover/Main.exml",
+		"resource/eui_skins/InkBar.exml",
+		"resource/eui_skins/game/Main.exml",
+		"resource/eui_skins/love/Main.exml",
+		"resource/eui_skins/Pause.exml"
+	],
+	"path": "resource/default.thm.json"
+}

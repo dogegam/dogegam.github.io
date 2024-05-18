@@ -1,0 +1,5 @@
+{"file":"game2.png","frames":{
+"dog_eat_1_1_png":{"x":0,"y":204,"w":143,"h":143,"offX":1,"offY":0,"sourceW":144,"sourceH":144},
+"bone_png":{"x":147,"y":204,"w":96,"h":96,"offX":0,"offY":0,"sourceW":96,"sourceH":96},
+"dog_eat_1_2_png":{"x":0,"y":351,"w":144,"h":131,"offX":0,"offY":13,"sourceW":144,"sourceH":144},
+"centerlight_png":{"x":0,"y":0,"w":200,"h":200,"offX":0,"offY":0,"sourceW":200,"sourceH":200}}}
