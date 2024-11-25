@@ -1,35 +1,134 @@
 {
 	"groups": [
 		{
-			"keys": "game0_json,moregame_png,icon_null_png,img_check_png",
+			"keys": "moregame_png,title_png,adicon_png,copy_png,cover0_json,game0_json,uiart_json,game1_json,game2_json,bg_jpg,bubbletip_png",
 			"name": "common"
 		},
 		{
-			"keys": "",
+			"keys": "bees_mp3,bg_mp3,bites_mp3,button_mp3,dog_mp3,drawline_mp3,fail_mp3,level_win_mp3,like_mp3,winstar_mp3,seawave_mp3",
 			"name": "sound"
 		}
 	],
 	"resources": [
-		{
-			"url": "assets/game0.json",
-			"type": "sheet",
-			"name": "game0_json",
-			"subkeys": "Icon_Timer_png,ItemIcon_Chat_png,allticket_png,buy_png,iconoutside_png,img_0_png,img_10_png,img_11_png,img_12_png,img_13_png,img_14_png,img_15_png,img_16_png,img_17_png,img_1_png,img_2_png,img_3_png,img_4_png,img_5_png,img_6_png,img_7_Png,img_8_png,img_9_png,myticket_png,winner_png"
-		},
 		{
 			"url": "assets/moregame.png",
 			"type": "image",
 			"name": "moregame_png"
 		},
 		{
-			"url": "assets/icon_null.png",
+			"url": "assets/title.png",
 			"type": "image",
-			"name": "icon_null_png"
+			"name": "title_png"
 		},
 		{
-			"url": "assets/img_check.png",
+			"url": "assets/adicon.png",
 			"type": "image",
-			"name": "img_check_png"
+			"name": "adicon_png"
+		},
+		{
+			"url": "assets/copy.png",
+			"type": "image",
+			"name": "copy_png"
+		},
+		{
+			"url": "assets/cover0.json",
+			"type": "sheet",
+			"name": "cover0_json",
+			"subkeys": "title_0_png,title_1_png,title_2_png,title_3_png,title_4_png"
+		},
+		{
+			"url": "assets/game0.json",
+			"type": "sheet",
+			"name": "game0_json",
+			"subkeys": "bees_1_1_png,bees_1_2_png,bees_1_3_png,bees_1_4_png,bees_1_5_png,bomb_png,bone_png,box_png,cellular_1_png,dog_1_1_png,dog_1_2_png,dog_1_3_png,dog_1_4_png,dog_1_5_png,dog_1_6_png,dog_1_7_png,dog_bite_1_1_png,dog_bite_1_2_png,dog_bite_1_3_png,dog_panic_1_1_png,dog_panic_1_2_png,dog_panic_1_3_png,editor_bees_png,editor_thorn_png,editor_thornball_png,ground_png,guideline1_png,guideline2_png"
+		},
+		{
+			"url": "assets/uiart.json",
+			"type": "sheet",
+			"name": "uiart_json",
+			"subkeys": "arrow_png,beeking2_png,beeking_png,bg_box2_png,btn_back_png,btn_blue_png,btn_caramel_png,btn_gray_png,btn_green_png,btn_home2_png,btn_next_png,btn_purple_png,btn_red_png,btn_refresh_png,btn_setting_png,btn_shop2_png,btn_skip_png,btn_yellow_png,challengeline_png,choice_png,clock_png,close_png,guide_png,lock_png,logo_png,plus_png,right_png,score_png,sensitivity2_png,sensitivity_bg_png,sensitivity_png,settle_star1_png,settle_star2_png,sign_png,star2_png,star3_png,star_png,tab_choose_png,title_fail_png,title_win_png,unchoice_png,video2_png,wrong_png"
+		},
+		{
+			"url": "assets/game1.json",
+			"type": "sheet",
+			"name": "game1_json",
+			"subkeys": "dog_kiss_1_1_png,dog_kiss_1_2_png,dog_kiss_1_3_png,doggirl_1_png,doggirl_2_png,doggirl_3_png,doggirl_4_png,doggirl_5_png,doggirl_6_png,doggirl_7_png,doggirl_bite_1_png,doggirl_bite_2_png,doggirl_bite_3_png,doggirl_kiss_1_png,doggirl_kiss_2_png,doggirl_kiss_3_png,love2_png,love_png"
+		},
+		{
+			"url": "assets/game2.json",
+			"type": "sheet",
+			"name": "game2_json",
+			"subkeys": "bone_png,centerlight_png,dog_eat_1_1_png,dog_eat_1_2_png"
+		},
+		{
+			"url": "sounds/bees.mp3",
+			"type": "sound",
+			"name": "bees_mp3"
+		},
+		{
+			"url": "sounds/bg.mp3",
+			"type": "sound",
+			"name": "bg_mp3"
+		},
+		{
+			"url": "sounds/bites.mp3",
+			"type": "sound",
+			"name": "bites_mp3"
+		},
+		{
+			"url": "sounds/button.mp3",
+			"type": "sound",
+			"name": "button_mp3"
+		},
+		{
+			"url": "sounds/dog.mp3",
+			"type": "sound",
+			"name": "dog_mp3"
+		},
+		{
+			"url": "sounds/drawline.mp3",
+			"type": "sound",
+			"name": "drawline_mp3"
+		},
+		{
+			"url": "sounds/fail.mp3",
+			"type": "sound",
+			"name": "fail_mp3"
+		},
+		{
+			"url": "sounds/level_win.mp3",
+			"type": "sound",
+			"name": "level_win_mp3"
+		},
+		{
+			"url": "sounds/like.mp3",
+			"type": "sound",
+			"name": "like_mp3"
+		},
+		{
+			"url": "sounds/winstar.mp3",
+			"type": "sound",
+			"name": "winstar_mp3"
+		},
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "sounds/seawave.mp3",
+			"type": "sound",
+			"name": "seawave_mp3"
+		},
+		{
+			"url": "assets/bubbletip.png",
+			"type": "image",
+			"name": "bubbletip_png"
+		},
+		{
+			"url": "assets/doge2.png",
+			"type": "image",
+			"name": "doge2_png"
 		}
 	]
 }

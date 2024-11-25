@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Save the Dog</title>
+    <title>Dogecoin Lottery Game</title>
     <meta name="viewport"
         content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -12,6 +12,11 @@
     <meta name="x5-fullscreen" content="true" />
     <meta name="360-fullscreen" content="true" />
     <style>
+        @font-face {
+            font-family: "myfont";
+            src: url("resource/pointfree-1.ttf") format("truetype");
+        }
+
         html,
         body {
             -ms-touch-action: none;
@@ -22,12 +27,15 @@
             height: 100%;
         }
     </style>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8268425270467026"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player" data-entry-class="DogeMain"
-        data-orientation="auto" data-scale-mode="fixedHeight" data-frame-rate="30" data-content-width="640"
-        data-content-height="1136" data-show-paint-rect="false" data-multi-fingered="1" data-show-fps="false"
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player" data-entry-class="Main"
+        data-orientation="auto" data-scale-mode="showAll" data-frame-rate="30" data-content-width="640"
+        data-content-height="1136" data-show-paint-rect="false" data-multi-fingered="2" data-show-fps="false"
         data-show-log="false" data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9"></div>
     <script>var loadScript = function (list, callback) {
             var loaded = 0;

@@ -1,0 +1,29 @@
+{
+	"skins": {
+		"Scene.Game.Main": "resource/eui_skins/game/Main.exml",
+		"Scene.Cover.Main": "resource/eui_skins/cover/Main.exml",
+		"Scene.Common": "resource/eui_skins/Common.exml",
+		"Scene.Game.TicketBar": "resource/eui_skins/game/TicketBar.exml",
+		"Scene.Game.AllTicket": "resource/eui_skins/game/AllTicket.exml",
+		"Scene.Game.MyTicket": "resource/eui_skins/game/MyTicket.exml",
+		"Scene.Game.Rank": "resource/eui_skins/game/Rank.exml",
+		"Scene.Game.Help": "resource/eui_skins/game/Help.exml",
+		"Scene.Game.Winner": "resource/eui_skins/game/Winner.exml",
+		"Scene.Game.InputAddr": "resource/eui_skins/game/InputAddr.exml"
+	},
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/eui_skins/Common.exml",
+		"resource/eui_skins/cover/Main.exml",
+		"resource/eui_skins/game/AllTicket.exml",
+		"resource/eui_skins/game/Help.exml",
+		"resource/eui_skins/game/InputAddr.exml",
+		"resource/eui_skins/game/Main.exml",
+		"resource/eui_skins/game/MyTicket.exml",
+		"resource/eui_skins/game/Rank.exml",
+		"resource/eui_skins/game/TicketBar.exml",
+		"resource/eui_skins/game/Winner.exml",
+		"resource/eui_skins/game/WinnerBar.exml"
+	],
+	"path": "resource/default.thm.json"
+}
