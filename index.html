@@ -23,6 +23,19 @@
         }
     </style>
 
+
+
+</head>
+
+<body>
+
+
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player" data-entry-class="DogeMain"
+        data-orientation="auto" data-scale-mode="fixedHeight" data-frame-rate="30" data-content-width="640"
+        data-content-height="1136" data-show-paint-rect="false" data-multi-fingered="1" data-show-fps="false"
+        data-show-log="false" data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9"></div>
+
+
     <script type="text/javascript">
         atOptions = {
             'key': '62988bd3a84f699028a00c5fe304f4ae',
@@ -32,17 +45,12 @@
             'params': {}
         };
     </script>
-    <script type="text/javascript"
-        src="//www.highperformanceformat.com/62988bd3a84f699028a00c5fe304f4ae/invoke.js"></script>
+    <script type="text/javascript" src="//www.highperformanceformat.com/62988bd3a84f699028a00c5fe304f4ae/invoke.js">
+    </script>
 
-</head>
+    <script>
 
-<body>
-    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player" data-entry-class="DogeMain"
-        data-orientation="auto" data-scale-mode="fixedHeight" data-frame-rate="30" data-content-width="640"
-        data-content-height="1136" data-show-paint-rect="false" data-multi-fingered="1" data-show-fps="false"
-        data-show-log="false" data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9"></div>
-    <script>var loadScript = function (list, callback) {
+        var loadScript = function (list, callback) {
             var loaded = 0;
             var loadNext = function () {
                 loadSingleScript(list[loaded], function () {
